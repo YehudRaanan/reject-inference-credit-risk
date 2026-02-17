@@ -1,0 +1,15 @@
+{
+  "cutoff_feature": "EXT_SOURCE_2",
+  "cutoff_percentile": 30,
+  "cutoff_value": 0.4404776376746306,
+  "seed": 42,
+  "d_l_total": 214796,
+  "d_l_train_size": 150357,
+  "d_l_val_size": 32219,
+  "d_l_test_size": 32220,
+  "d_r_size": 92715,
+  "d_l_default_rate": 0.057636082608614685,
+  "d_r_default_rate": 0.13422854985708893,
+  "d_l_train_default_rate": 0.05763615927426059,
+  "total_features": 132
+}

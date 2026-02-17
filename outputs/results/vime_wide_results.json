@@ -1,0 +1,16 @@
+{
+  "route": "G-Wide (VIME-512)",
+  "test_metrics": {
+    "auc": 0.7029538615777277,
+    "precision_at_k": 0.9829298572315333,
+    "n_diamonds": 6334
+  },
+  "reject_metrics": {
+    "auc": 0.6890797290562591,
+    "precision_at_k": 0.9551313163997196,
+    "n_diamonds": 17711
+  },
+  "best_val_auc": 0.7167141514825397,
+  "best_val_prec": 0.9882042526773243,
+  "best_epoch": 16
+}

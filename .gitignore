@@ -1,0 +1,32 @@
+# Documentation (kept locally but not published)
+docs/
+
+# Large data files (provide download instructions instead)
+data/raw/*.csv
+data/raw/*.zip
+
+# Development artifacts
+catboost_info/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup scripts
+backup_script.py
+backup_script.ps1
