@@ -1,0 +1,16 @@
+{
+  "route": "A-Fixed (VIME-128) - Same setup as G-Wide",
+  "test_metrics": {
+    "auc": 0.7105424648949292,
+    "precision_at_k": 0.9826194909993793,
+    "n_diamonds": 6332
+  },
+  "reject_metrics": {
+    "auc": 0.6902475924590185,
+    "precision_at_k": 0.9545920293372162,
+    "n_diamonds": 17701
+  },
+  "best_val_auc": 0.724426775994722,
+  "best_val_prec": 0.98804904547571,
+  "best_epoch": 11
+}

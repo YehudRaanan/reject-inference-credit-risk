@@ -1,0 +1,9 @@
+{
+  "model": "DCN-v2-categorical-focal",
+  "dataset": "D_R (rejected population)",
+  "auc": 0.6965967901722606,
+  "precision_at_20": 0.9567491775872297,
+  "diamonds_found": 17741,
+  "total_samples": 92715,
+  "default_rate": 0.13422854985708893
+}
