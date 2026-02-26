@@ -1,0 +1,12 @@
+{
+  "route": "Frozen Encoder + MLP Head",
+  "step": "2.2C",
+  "description": "Frozen VIME encoder + classification head (ablation)",
+  "val_auc": 0.727235497621467,
+  "test_auc": 0.7165800189986214,
+  "reject_auc": 0.6872848671691258,
+  "best_epoch": 38,
+  "total_epochs": 48,
+  "trainable_params": 10369,
+  "frozen_params": 228986
+}

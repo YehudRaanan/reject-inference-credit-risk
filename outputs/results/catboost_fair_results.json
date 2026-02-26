@@ -1,0 +1,46 @@
+{
+  "catboost_fair": {
+    "model": "CatBoost (Fair)",
+    "training": {
+      "loss": "Logloss with class_weights {0: 0.75, 1: 0.25}",
+      "early_stopping": "Precision@20%",
+      "best_iteration": 750
+    },
+    "D_L_test": {
+      "AUC": 0.7371743565042131,
+      "P@20%": 0.9847920546244568,
+      "Diamonds": 6346
+    },
+    "D_R": {
+      "AUC": 0.7153876514135208,
+      "P@20%": 0.9659985878007713,
+      "Diamonds": 17785
+    }
+  },
+  "catboost_ensemble_fair": {
+    "model": "CatBoost-Ensemble (Fair)",
+    "training": {
+      "loss": "Logloss with class_weights {0: 0.75, 1: 0.25}",
+      "early_stopping": "Precision@20%",
+      "weights": {
+        "EXT": 0.5,
+        "OTHER": 0.5
+      }
+    },
+    "D_L_test": {
+      "AUC": 0.7326837103749709,
+      "P@20%": 0.9860335195530726,
+      "Diamonds": 6354
+    },
+    "D_R": {
+      "AUC": 0.7165322942753556,
+      "P@20%": 0.9640975503774917,
+      "Diamonds": 17750
+    }
+  },
+  "training_setup": {
+    "loss": "Logloss with class_weights equivalent to Focal Loss alpha=0.25",
+    "early_stopping": "Precision@20%",
+    "note": "Same setup as DCN-v2, VIME-128, VIME-512 for fair comparison"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "route": "512-Fair-v3 (VIME-512 with SAME model class as 128)",
+  "architecture": {
+    "model_class": "VIME (same as 128-dim, NOT VIMEWide)",
+    "input_dim": 253,
+    "hidden_dim": 512,
+    "embedding_dim": 512,
+    "dropout": 0.3,
+    "encoder_layers": 3,
+    "decoder_layers": 1,
+    "decoder_type": "shallow (same as 128)"
+  },
+  "training": {
+    "ssl_epochs": 30,
+    "ssl_batch_size": 512,
+    "ssl_alpha": 1.0,
+    "cls_epochs": 11,
+    "focal_alpha": 0.25,
+    "focal_gamma": 2.0,
+    "use_partial_loss": true
+  },
+  "controlled_comparison": {
+    "vs_128_fair_v2": "ONLY width differs (512 vs 128/256)",
+    "model_class": "identical (VIME)",
+    "encoder_layers": "identical (3)",
+    "decoder_layers": "identical (1, shallow)",
+    "training_settings": "identical"
+  },
+  "test_metrics": {
+    "auc": 0.7187677371618885,
+    "precision_at_k": 0.9837057728119181,
+    "n_diamonds": 6339
+  },
+  "reject_metrics": {
+    "auc": 0.7058311187651714,
+    "precision_at_k": 0.959100537722014,
+    "n_diamonds": 17658
+  },
+  "best_val_auc": 0.7285260725922993,
+  "best_val_prec": 0.9882042526773243
+}

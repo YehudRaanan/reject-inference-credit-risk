@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Data (large files - do not track)
+data/raw/
+data/processed/
+
+# Model weights (large binary files)
+outputs/models/*.pth
+outputs/models/*.cbm
+outputs/models/dcn_v2_best/
+
+# CatBoost training logs
+catboost_info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large documents
+*.docx
+
+# Keep .gitkeep files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/models/.gitkeep
+
+# Misc
+validation_output.txt
+backup_script.ps1
+backup_script.py

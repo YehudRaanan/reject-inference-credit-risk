@@ -1,0 +1,56 @@
+{
+  "route": "F-Fixed",
+  "step_15a": {
+    "step": "1.5A",
+    "description": "Variable split, embeddings only",
+    "model_ext": {
+      "D_L_test": 0.7093330102634802,
+      "D_R": 0.6839750744811993,
+      "val_auc": 0.716675167571402
+    },
+    "model_other": {
+      "D_L_test": 0.7075601697649077,
+      "D_R": 0.681256129185934,
+      "val_auc": 0.7147414378791731
+    },
+    "ensemble_dr_optimal": {
+      "w_ext": 0.7000000000000001,
+      "w_other": 0.29999999999999993,
+      "D_L_test": 0.7096753053977584,
+      "D_R": 0.6845578524829043
+    },
+    "ensemble_test_optimal": {
+      "w_ext": 0.7000000000000001,
+      "w_other": 0.29999999999999993,
+      "D_L_test": 0.7096753053977584
+    }
+  },
+  "step_15b": {
+    "step": "1.5B",
+    "description": "Variable split, raw + embeddings",
+    "n_ext_features": 137,
+    "n_other_features": 251,
+    "model_ext": {
+      "D_L_test": 0.7163065908076801,
+      "D_R": 0.7012113446166996,
+      "val_auc": 0.7252457219059464
+    },
+    "model_other": {
+      "D_L_test": 0.7263674606370792,
+      "D_R": 0.7032770746660916,
+      "val_auc": 0.7378530620124062
+    },
+    "ensemble_dr_optimal": {
+      "w_ext": 0.45,
+      "w_other": 0.55,
+      "D_L_test": 0.7293636781339615,
+      "D_R": 0.7170682133816849
+    },
+    "ensemble_test_optimal": {
+      "w_ext": 0.35000000000000003,
+      "w_other": 0.6499999999999999,
+      "D_L_test": 0.7297446011854656
+    }
+  },
+  "baseline_route_f_d_r_auc": 0.7268
+}

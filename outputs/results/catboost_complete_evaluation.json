@@ -1,0 +1,34 @@
+{
+  "catboost": null,
+  "catboost_ensemble": {
+    "model": "CatBoost-Ensemble",
+    "weights": {
+      "EXT": 0.35000000000000003,
+      "OTHER": 0.6499999999999999
+    },
+    "D_L_test": {
+      "AUC": 0.7368719130366046,
+      "P@20%": 0.9863438857852266,
+      "Diamonds": 6356,
+      "n_samples": 32220
+    },
+    "D_R": {
+      "AUC": 0.726796019841232,
+      "P@20%": 0.9650541983497816,
+      "Diamonds": 17895,
+      "n_samples": 92715
+    }
+  },
+  "validation": {
+    "checks": [
+      "D_L split: 150357 train + 32219 val + 32220 test = 214796 total",
+      "Default rates - Train: 5.76%, Val: 5.76%, Test: 5.76%",
+      "D_R: 18,543 in top 20%, 80,270 total non-defaults",
+      "Models trained on D_L_train, evaluated on separate D_L_test and D_R",
+      "Random seed: 42",
+      "Features: 132 total = 9 EXT + 123 OTHER"
+    ],
+    "warnings": [],
+    "passed": true
+  }
+}

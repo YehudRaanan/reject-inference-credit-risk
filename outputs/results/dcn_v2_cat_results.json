@@ -1,0 +1,9 @@
+{
+  "model": "DCN-v2-categorical-focal",
+  "best_epoch": 12,
+  "val_auc": 0.7343803723704883,
+  "val_precision_20": 0.9891354958870091,
+  "test_auc": 0.7236443609599027,
+  "test_precision_20": 0.9855679702048417,
+  "test_diamonds": 6351
+}

@@ -1,0 +1,298 @@
+{
+  "route_a_dl_test": {
+    "auc_roc": 0.6911862248519711,
+    "pr_auc": 0.12589604996209086,
+    "brier_score": 0.05685445095915651,
+    "n_samples": 32220,
+    "default_rate": 0.057635009310986966,
+    "curves": {
+      "roc_auc": 0.6911862248519711,
+      "pr_auc": 0.12589604996209086
+    }
+  },
+  "route_b_dl_test": {
+    "auc_roc": 0.7390682240492269,
+    "pr_auc": 0.16711324134608588,
+    "brier_score": 0.05155093229766278,
+    "n_samples": 32220,
+    "default_rate": 0.057635009310986966,
+    "curves": {
+      "roc_auc": 0.7390682240492269,
+      "pr_auc": 0.16711324134608588
+    }
+  },
+  "route_a_dr": {
+    "auc_roc": 0.6946914519062648,
+    "pr_auc": 0.26064730349255144,
+    "brier_score": 0.22543797542327754,
+    "n_samples": 92715,
+    "default_rate": 0.13422854985708893,
+    "curves": {
+      "roc_auc": 0.6946914519062648,
+      "pr_auc": 0.26064730349255144
+    }
+  },
+  "route_b_dr": {
+    "auc_roc": 0.7205782382810766,
+    "pr_auc": 0.279008979880857,
+    "brier_score": 0.21225616272015338,
+    "n_samples": 92715,
+    "default_rate": 0.13422854985708893,
+    "curves": {
+      "roc_auc": 0.7205782382810766,
+      "pr_auc": 0.279008979880857
+    }
+  },
+  "diamond_recovery_a": {
+    "5": {
+      "k_percent": 5,
+      "n_selected": 4635,
+      "diamonds_found": 4483,
+      "total_diamonds": 80270,
+      "precision": 0.9672060409924488,
+      "recall": 0.05584900959262489,
+      "lift": 1.1171609329838654
+    },
+    "10": {
+      "k_percent": 10,
+      "n_selected": 9271,
+      "diamonds_found": 8910,
+      "total_diamonds": 80270,
+      "precision": 0.9610613741775429,
+      "recall": 0.11100037373863211,
+      "lift": 1.1100636016802152
+    },
+    "15": {
+      "k_percent": 15,
+      "n_selected": 13907,
+      "diamonds_found": 13336,
+      "total_diamonds": 80270,
+      "precision": 0.9589415402315381,
+      "recall": 0.16613927993023545,
+      "lift": 1.1076151102848766
+    },
+    "20": {
+      "k_percent": 20,
+      "n_selected": 18543,
+      "diamonds_found": 17700,
+      "total_diamonds": 80270,
+      "precision": 0.9545381006309659,
+      "recall": 0.2205057929487978,
+      "lift": 1.102528964743989
+    },
+    "25": {
+      "k_percent": 25,
+      "n_selected": 23178,
+      "diamonds_found": 22029,
+      "total_diamonds": 80270,
+      "precision": 0.9504271291742169,
+      "recall": 0.27443627756322414,
+      "lift": 1.0977806313864147
+    },
+    "30": {
+      "k_percent": 30,
+      "n_selected": 27814,
+      "diamonds_found": 26317,
+      "total_diamonds": 80270,
+      "precision": 0.9461781836485224,
+      "recall": 0.32785598604709104,
+      "lift": 1.0928729325647533
+    },
+    "40": {
+      "k_percent": 40,
+      "n_selected": 37086,
+      "diamonds_found": 34767,
+      "total_diamonds": 80270,
+      "precision": 0.9374696651027342,
+      "recall": 0.43312570075993523,
+      "lift": 1.082814251899838
+    },
+    "50": {
+      "k_percent": 50,
+      "n_selected": 46357,
+      "diamonds_found": 43103,
+      "total_diamonds": 80270,
+      "precision": 0.9298056388463447,
+      "recall": 0.5369752086707362,
+      "lift": 1.0739620008177257
+    }
+  },
+  "diamond_recovery_b": {
+    "5": {
+      "k_percent": 5,
+      "n_selected": 4635,
+      "diamonds_found": 4537,
+      "total_diamonds": 80270,
+      "precision": 0.978856526429342,
+      "recall": 0.05652173913043478,
+      "lift": 1.1306177008583087
+    },
+    "10": {
+      "k_percent": 10,
+      "n_selected": 9271,
+      "diamonds_found": 9014,
+      "total_diamonds": 80270,
+      "precision": 0.9722791500377521,
+      "recall": 0.11229600099663635,
+      "lift": 1.1230205730129585
+    },
+    "15": {
+      "k_percent": 15,
+      "n_selected": 13907,
+      "diamonds_found": 13469,
+      "total_diamonds": 80270,
+      "precision": 0.9685050693895161,
+      "recall": 0.1677961878659524,
+      "lift": 1.1186613617596732
+    },
+    "20": {
+      "k_percent": 20,
+      "n_selected": 18543,
+      "diamonds_found": 17885,
+      "total_diamonds": 80270,
+      "precision": 0.9645149112872782,
+      "recall": 0.22281051451351688,
+      "lift": 1.1140525725675843
+    },
+    "25": {
+      "k_percent": 25,
+      "n_selected": 23178,
+      "diamonds_found": 22275,
+      "total_diamonds": 80270,
+      "precision": 0.9610406419880921,
+      "recall": 0.2775009343465803,
+      "lift": 1.1100396551878156
+    },
+    "30": {
+      "k_percent": 30,
+      "n_selected": 27814,
+      "diamonds_found": 26620,
+      "total_diamonds": 80270,
+      "precision": 0.9570719781405048,
+      "recall": 0.3316307462314688,
+      "lift": 1.1054556927033374
+    },
+    "40": {
+      "k_percent": 40,
+      "n_selected": 37086,
+      "diamonds_found": 35197,
+      "total_diamonds": 80270,
+      "precision": 0.9490643369465567,
+      "recall": 0.4384826211536066,
+      "lift": 1.0962065528840164
+    },
+    "50": {
+      "k_percent": 50,
+      "n_selected": 46357,
+      "diamonds_found": 43557,
+      "total_diamonds": 80270,
+      "precision": 0.9395991975321958,
+      "recall": 0.5426311199701009,
+      "lift": 1.0852739454241624
+    }
+  },
+  "route_a_full": {
+    "auc_roc": 0.7147742724216812,
+    "pr_auc": 0.24691732637024383,
+    "brier_score": 0.1819612782748885,
+    "n_samples": 124935,
+    "default_rate": 0.11447552727418257,
+    "curves": {
+      "roc_auc": 0.7147742724216812,
+      "pr_auc": 0.24691732637024383
+    }
+  },
+  "route_b_full": {
+    "auc_roc": 0.7325983704383949,
+    "pr_auc": 0.2639599770570766,
+    "brier_score": 0.17081123116204203,
+    "n_samples": 124935,
+    "default_rate": 0.11447552727418257,
+    "curves": {
+      "roc_auc": 0.7325983704383949,
+      "pr_auc": 0.2639599770570766
+    }
+  },
+  "shap_top_features": [
+    {
+      "feature": "EXT_SOURCES_MEAN",
+      "importance": 0.4794875201928545
+    },
+    {
+      "feature": "EXT_SOURCE_2",
+      "importance": 0.2951874869815907
+    },
+    {
+      "feature": "CREDIT_TO_ANNUITY_RATIO",
+      "importance": 0.2412969982957339
+    },
+    {
+      "feature": "CREDIT_TO_GOODS_RATIO",
+      "importance": 0.2027834532886486
+    },
+    {
+      "feature": "AMT_ANNUITY",
+      "importance": 0.19865939069920815
+    },
+    {
+      "feature": "EXT_SOURCE_3",
+      "importance": 0.19436724136977915
+    },
+    {
+      "feature": "EXT_SOURCES_MIN",
+      "importance": 0.18227873476850778
+    },
+    {
+      "feature": "EMPLOYED_YEARS",
+      "importance": 0.17685228056919414
+    },
+    {
+      "feature": "AMT_GOODS_PRICE",
+      "importance": 0.14979641944266434
+    },
+    {
+      "feature": "NAME_EDUCATION_TYPE",
+      "importance": 0.1447427882399204
+    },
+    {
+      "feature": "EXT_SOURCES_MAX",
+      "importance": 0.13339666109010265
+    },
+    {
+      "feature": "CODE_GENDER",
+      "importance": 0.12230860661455116
+    },
+    {
+      "feature": "BIRTH_YEARS",
+      "importance": 0.11189514431189179
+    },
+    {
+      "feature": "EXT_SOURCE_1",
+      "importance": 0.10616524622376156
+    },
+    {
+      "feature": "LAST_PHONE_CHANGE_YEARS",
+      "importance": 0.08612975365158614
+    },
+    {
+      "feature": "FLAG_OWN_CAR",
+      "importance": 0.0852576533360699
+    },
+    {
+      "feature": "OCCUPATION_TYPE",
+      "importance": 0.07619775510240791
+    },
+    {
+      "feature": "FLAG_DOCUMENT_3",
+      "importance": 0.07189826765492774
+    },
+    {
+      "feature": "ORGANIZATION_TYPE",
+      "importance": 0.07126084052399134
+    },
+    {
+      "feature": "NAME_FAMILY_STATUS",
+      "importance": 0.07024650504090724
+    }
+  ]
+}

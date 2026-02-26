@@ -1,0 +1,39 @@
+{
+  "route": "128-Fair-v2 (VIME-128 with identical training to G-Wide)",
+  "architecture": {
+    "input_dim": 253,
+    "hidden_dim": 256,
+    "embedding_dim": 128,
+    "dropout": 0.3,
+    "decoder": "single-layer (original VIME)"
+  },
+  "training": {
+    "ssl_epochs": 30,
+    "ssl_batch_size": 512,
+    "ssl_alpha": 1.0,
+    "cls_epochs": 20,
+    "focal_alpha": 0.25,
+    "focal_gamma": 2.0,
+    "use_partial_loss": true
+  },
+  "unified_with_gwide": {
+    "dropout": "0.3 (was 0.1)",
+    "reconstruction_loss": "masked_mse (partial)",
+    "classification_loss": "focal_loss",
+    "ssl_epochs": "30 (was 20)",
+    "ssl_batch_size": "512 (was 128)",
+    "ssl_alpha": "1.0 (was 2.0)"
+  },
+  "test_metrics": {
+    "auc": 0.7081338510893082,
+    "precision_at_k": 0.9837057728119181,
+    "n_diamonds": 6339
+  },
+  "reject_metrics": {
+    "auc": 0.6955742633177098,
+    "precision_at_k": 0.9571995002987345,
+    "n_diamonds": 17623
+  },
+  "best_val_auc": 0.7204457436007236,
+  "best_val_prec": 0.9886698742821667
+}

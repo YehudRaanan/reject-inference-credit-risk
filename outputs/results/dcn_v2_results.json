@@ -1,0 +1,23 @@
+{
+  "model": "DCN-v2",
+  "best_epoch": 3,
+  "val_auc": 0.7380986978983486,
+  "test_auc": 0.7259812080680701,
+  "n_parameters": 3862966,
+  "hyperparameters": {
+    "num_bins": 10,
+    "numerical_embed_dim": 16,
+    "cross_layers": 3,
+    "cross_rank": 64,
+    "deep_hidden": [
+      512,
+      256,
+      128
+    ],
+    "dropout": 0.1,
+    "batch_size": 1024,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "patience": 10
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "d_r_stats": {
+    "total": 92715,
+    "defaults": 12445,
+    "diamonds": 80270,
+    "default_rate": 0.13422854985708893
+  },
+  "auc_on_d_r": 0.6946914519062648,
+  "recovery_at_k": {
+    "5": {
+      "k_percent": 5,
+      "n_selected": 4635,
+      "diamonds_found": 4483,
+      "total_diamonds": 80270,
+      "precision": 0.9672060409924488,
+      "recall": 0.05584900959262489,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.1171609329838654
+    },
+    "10": {
+      "k_percent": 10,
+      "n_selected": 9271,
+      "diamonds_found": 8910,
+      "total_diamonds": 80270,
+      "precision": 0.9610613741775429,
+      "recall": 0.11100037373863211,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.1100636016802152
+    },
+    "15": {
+      "k_percent": 15,
+      "n_selected": 13907,
+      "diamonds_found": 13336,
+      "total_diamonds": 80270,
+      "precision": 0.9589415402315381,
+      "recall": 0.16613927993023545,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.1076151102848766
+    },
+    "20": {
+      "k_percent": 20,
+      "n_selected": 18543,
+      "diamonds_found": 17700,
+      "total_diamonds": 80270,
+      "precision": 0.9545381006309659,
+      "recall": 0.2205057929487978,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.102528964743989
+    },
+    "25": {
+      "k_percent": 25,
+      "n_selected": 23178,
+      "diamonds_found": 22029,
+      "total_diamonds": 80270,
+      "precision": 0.9504271291742169,
+      "recall": 0.27443627756322414,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.0977806313864147
+    },
+    "30": {
+      "k_percent": 30,
+      "n_selected": 27814,
+      "diamonds_found": 26317,
+      "total_diamonds": 80270,
+      "precision": 0.9461781836485224,
+      "recall": 0.32785598604709104,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.0928729325647533
+    },
+    "40": {
+      "k_percent": 40,
+      "n_selected": 37086,
+      "diamonds_found": 34767,
+      "total_diamonds": 80270,
+      "precision": 0.9374696651027342,
+      "recall": 0.43312570075993523,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.082814251899838
+    },
+    "50": {
+      "k_percent": 50,
+      "n_selected": 46357,
+      "diamonds_found": 43103,
+      "total_diamonds": 80270,
+      "precision": 0.9298056388463447,
+      "recall": 0.5369752086707362,
+      "baseline_precision": 0.8657714501429111,
+      "lift": 1.0739620008177257
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "route": "Dynamic (Fine-tuned + Pseudo-Labels)",
+  "step": "2.2B",
+  "description": "Fine-tuned VIME with pseudo-labeled D_R (Student model)",
+  "val_auc": 0.723951191788534,
+  "test_auc": 0.7131923967702166,
+  "reject_auc": 0.6879193974854753,
+  "best_epoch": 3,
+  "total_epochs": 13,
+  "pseudo_default_rate": 0.3720649301623254,
+  "combined_train_size": 243072
+}

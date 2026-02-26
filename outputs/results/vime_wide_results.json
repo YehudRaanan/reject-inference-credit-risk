@@ -1,0 +1,27 @@
+{
+  "route": "G-Wide (VIME-512)",
+  "architecture": {
+    "input_dim": 253,
+    "hidden_dim": 512,
+    "embedding_dim": 512,
+    "dropout": 0.3
+  },
+  "training": {
+    "ssl_epochs": 30,
+    "cls_epochs": 8,
+    "focal_alpha": 0.25,
+    "focal_gamma": 2.0
+  },
+  "test_metrics": {
+    "auc": 0.7042244061361209,
+    "precision_at_k": 0.9832402234636871,
+    "n_diamonds": 6336
+  },
+  "reject_metrics": {
+    "auc": 0.682167792446041,
+    "precision_at_k": 0.9564390853294227,
+    "n_diamonds": 17609
+  },
+  "best_val_auc": 0.7199891281356465,
+  "best_val_prec": 0.9874282166692534
+}
